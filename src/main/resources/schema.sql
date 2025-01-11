@@ -1,0 +1,7 @@
+DROP TABLE ORDERS IF EXISTS;
+
+CREATE TABLE ORDERS (
+    order_id BIGINT PRIMARY KEY,
+    name VARCHAR(255),
+    montant DOUBLE
+);
